@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Assignment 4</title>
+    <script type="text/javascript">
+        let ws;
+
+        function init() {
+            ws = new WebSocket("ws://localhost:8080/chat");
+            ws.onopen = function (event) {
+                console.log("Connection is opened" + event);
+            }
+            ws.onmessage = function (event) {
+                const $textarea = document.getElementById("messages");
+                $textarea.value = $textarea.value + event.data + "\n";
+                console.log("message " + event.data)
+            }
+            ws.onclose = function (event) {
+                console.log("Connection is closed" + event);
+            }
+        }
+
+        function sendMessage() {
+            const messageField = document.getElementById("message");
+            const message = messageField.value;
+            ws.send(message);
+            messageField.value = '';
+        }
+    </script>
+</head>
+<body onload="init();">
+<div id="body">
+    <div id="chatbox">
+        <textarea id="messages" rows="20" cols="50" readonly="readonly"></textarea>
+    </div>
+
+    <form name="message" action="">
+        <input name="usermsg" type="text" id="message" size="40"/>
+        <input type="button" name="submitmsg" value="Send..." onclick="sendMessage();"/>
+    </form>
+</div>
+</body>
+</html>
