@@ -12,11 +12,11 @@ https://stepik.org/course/186/ - part 2
 ## My work
 Files in all directories that matches the naming pattern "Assignment{N}/" are created by @iskanred (https://github.com/Iskanred):
 
-  Assignment3/
-  Assignment4/
-  Assignment5/
-  Assignment6/
-  Assignment7/
+    Assignment3/
+    Assignment4/
+    Assignment5/
+    Assignment6/
+    Assignment7/
 
 Each assignment is a small project on covered topics. The description of an assignment you can find inside it's directory in README.md file or more detailed in 'task.txt' file.
 
@@ -28,4 +28,4 @@ These files are lessons examples.
 Solutions to assignments 1 & 2 were lost.
 
 ## Used and learned Techologies
-  Jetty, Hibernate, WebSockets, JMX, Log4j, NIO, XML SAX parser, Threads, TCP sockets
+    Jetty, Hibernate, WebSockets, JMX, Log4j, NIO, XML SAX parser, Threads, TCP sockets
