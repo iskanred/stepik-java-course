@@ -1,9 +1,0 @@
-[02-15 22:38:20,549, 943] com.iskandev.App Server started
-[02-15 22:41:33,224, 193618] com.iskandev.servlets.AccountServiceServlet GET repsonse is received
-[02-15 22:41:33,226, 193620] com.iskandev.servlets.AccountServiceServlet GET reponse is sent
-[02-15 22:41:42,944, 203338] com.iskandev.servlets.AccountServiceServlet GET repsonse is received
-[02-15 22:41:42,945, 203339] com.iskandev.servlets.AccountServiceServlet GET reponse is sent
-[02-15 22:41:52,525, 212919] com.iskandev.servlets.AccountServiceServlet GET repsonse is received
-[02-15 22:41:52,525, 212919] com.iskandev.servlets.AccountServiceServlet GET reponse is sent
-[02-15 22:42:00,968, 221362] com.iskandev.servlets.AccountServiceServlet GET repsonse is received
-[02-15 22:42:00,968, 221362] com.iskandev.servlets.AccountServiceServlet GET reponse is sent
